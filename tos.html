@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edgefall — Terms of Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #111118;
+      --border: #2a2a3a;
+      --gold: #c9a84c;
+      --gold-dim: #7a6230;
+      --text: #c8c0b0;
+      --text-dim: #7a7468;
+      --heading: #e8dcc8;
+      --accent: #8b3a3a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: 
+        radial-gradient(ellipse at 20% 0%, rgba(139,58,58,0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 100%, rgba(201,168,76,0.05) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 60px 32px 100px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 64px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+
+    header::after {
+      content: '⚔';
+      display: block;
+      position: absolute;
+      bottom: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--bg);
+      padding: 0 16px;
+      color: var(--gold-dim);
+      font-size: 20px;
+    }
+
+    .bot-name {
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      letter-spacing: 6px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 38px;
+      font-weight: 700;
+      color: var(--heading);
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+    }
+
+    .meta {
+      font-size: 15px;
+      color: var(--text-dim);
+      font-style: italic;
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    ul {
+      margin: 12px 0 16px 24px;
+      color: var(--text);
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    ul li::marker {
+      color: var(--gold-dim);
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+      border-bottom: 1px solid var(--gold-dim);
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    a:hover {
+      color: var(--heading);
+      border-color: var(--heading);
+    }
+
+    .contact-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold-dim);
+      padding: 24px 28px;
+      margin-top: 16px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+      font-size: 14px;
+      color: var(--text-dim);
+      font-style: italic;
+    }
+
+    .divider {
+      text-align: center;
+      color: var(--gold-dim);
+      margin: 48px 0;
+      letter-spacing: 12px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="bot-name">Sol — Edgefall</div>
+      <h1>Terms of Service</h1>
+      <p class="meta">Last updated: April 2026</p>
+    </header>
+
+    <section>
+      <h2>I. Acceptance of Terms</h2>
+      <p>By using the Edgefall Discord bot, developed and operated by Sol ("we", "us"), you agree to be bound by these Terms of Service. If you do not agree, you must discontinue use of the Bot immediately.</p>
+      <p>These terms apply to all users who interact with Edgefall in any Discord server or direct message context.</p>
+    </section>
+
+    <section>
+      <h2>II. Eligibility</h2>
+      <p>You must meet Discord's minimum age requirements to use Edgefall. By using the Bot, you confirm that you comply with Discord's Terms of Service and Community Guidelines.</p>
+    </section>
+
+    <section>
+      <h2>III. Use of the Bot</h2>
+      <p>You agree to use Edgefall only for its intended purposes. You must not:</p>
+      <ul>
+        <li>Exploit bugs, glitches, or unintended mechanics to gain an unfair advantage</li>
+        <li>Attempt to manipulate, abuse, or disrupt the Bot or its systems</li>
+        <li>Use automation, scripts, or macros to interact with the Bot</li>
+        <li>Harass other players or attempt to harm their accounts or progress</li>
+        <li>Attempt to reverse engineer, copy, or replicate any part of Edgefall</li>
+      </ul>
+      <p>Violation of these rules may result in a permanent ban from the Bot without warning or refund.</p>
+    </section>
+
+    <section>
+      <h2>IV. Virtual Items & Economy</h2>
+      <p>All in-game items, currency, progress, and assets within Edgefall are virtual and have no real-world monetary value. We reserve the right to modify, remove, or reset any virtual items or economy at any time.</p>
+      <p>Any purchases made through Patreon are for supporter perks and do not constitute a purchase of virtual goods. All Patreon transactions are subject to Patreon's own Terms of Service.</p>
+    </section>
+
+    <section>
+      <h2>V. Patreon & Supporter Perks</h2>
+      <p>Edgefall offers optional supporter tiers through Patreon. By subscribing, you gain access to certain in-game perks as described on the Patreon page. These perks are subject to change and are not guaranteed to remain available permanently.</p>
+      <p>Refunds for Patreon subscriptions are handled by Patreon and are subject to their refund policy. We are not responsible for any payment disputes.</p>
+    </section>
+
+    <section>
+      <h2>VI. Account Termination</h2>
+      <p>We reserve the right to ban any user from Edgefall at our sole discretion, particularly in cases of abuse, cheating, or violation of these Terms. Banned users forfeit all in-game progress and are not entitled to any compensation.</p>
+    </section>
+
+    <section>
+      <h2>VII. Disclaimers</h2>
+      <p>Edgefall is provided "as is" without any warranties of any kind. We do not guarantee uninterrupted availability of the Bot. We are not liable for any loss of data, progress, or virtual items due to downtime, bugs, or service disruptions.</p>
+    </section>
+
+    <section>
+      <h2>VIII. Changes to These Terms</h2>
+      <p>We may update these Terms of Service at any time. Continued use of Edgefall after changes are posted constitutes acceptance of the revised terms.</p>
+    </section>
+
+    <div class="divider">— ✦ —</div>
+
+    <section>
+      <h2>IX. Contact</h2>
+      <p>If you have any questions about these Terms, you can reach us at:</p>
+      <div class="contact-box">
+        <p><strong>Discord:</strong> delidonkey</p>
+        <p><strong>Email:</strong> <a href="mailto:connorrae27@gmail.com">connorrae27@gmail.com</a></p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 Sol. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
